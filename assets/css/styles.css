@@ -579,7 +579,6 @@ img {
   transform: rotate(-180deg);
 }
 
-
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs{
   display: flex;
@@ -592,6 +591,7 @@ img {
   font-weight: var(--font-medium);
   cursor: pointer;
 }
+
 
 .qualification__button:hover{
   color: var(--first-color);
@@ -651,9 +651,11 @@ img {
 
 .qualification__button .qualification__active{
   color: var(--first-color);
+  /* text-decoration: underline; */
 }
 
-/*==================== SERVICES ====================*/
+
+/*==================== Experience & Achievements ====================*/
 .services__container{
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
@@ -746,6 +748,13 @@ img {
   margin-right: var(--mb-0-25);
 }
 
+.align-right{
+  text-align: right;
+}
+.training{
+  transform: translate(58px);
+}
+
 /* Active Modal */
 .active-modal{
   opacity: 1;
@@ -765,6 +774,18 @@ img {
     width: 265px;
     border-radius: .5rem;
     justify-self: center;
+}
+
+.img1{
+  box-shadow: -11px 17px 20px rgb(0 0 0 / 20%);
+  /* content: '';
+  bottom: -15%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  background: rgba(0, 0, 0, .3);
+  z-index: -1;
+  filter: blur(0.2px); */
 }
 
 .portfolio__title{
@@ -1126,6 +1147,7 @@ transform: translateX(.25rem);
     grid-template-columns: .6fr;
     justify-content: center;
   }
+  
 }
 
 @media screen and (min-width: 768px)
@@ -1336,6 +1358,7 @@ transform: translateX(.25rem);
     }
     .qualification__button .qualification__active{
       color: var(--first-color);
+      text-decoration: underline;
     }
     
     
