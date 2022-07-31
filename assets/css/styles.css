@@ -579,7 +579,6 @@ img {
   transform: rotate(-180deg);
 }
 
-
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs{
   display: flex;
@@ -592,6 +591,7 @@ img {
   font-weight: var(--font-medium);
   cursor: pointer;
 }
+
 
 .qualification__button:hover{
   color: var(--first-color);
@@ -651,9 +651,18 @@ img {
 
 .qualification__button .qualification__active{
   color: var(--first-color);
+  /* text-decoration: underline; */
 }
 
-/*==================== SERVICES ====================*/
+.toggle{
+  text-align: center;
+    transform: translateY(-20px);
+    color: var(--text-color-light);
+}
+
+
+
+/*==================== Experience & Achievements ====================*/
 .services__container{
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
@@ -746,6 +755,13 @@ img {
   margin-right: var(--mb-0-25);
 }
 
+.align-right{
+  text-align: right;
+}
+.training{
+  transform: translate(58px);
+}
+
 /* Active Modal */
 .active-modal{
   opacity: 1;
@@ -765,6 +781,22 @@ img {
     width: 265px;
     border-radius: .5rem;
     justify-self: center;
+}
+
+.img1{
+  /* box-shadow: -11px 17px 20px rgb(0 0 0 / 20%); */
+  box-shadow: -10px 12px 20px rgb(0 0 0 / 20%);
+  margin-bottom: 0.6rem;
+}
+
+.img2{
+  /* box-shadow: -11px 17px 20px rgb(0 0 0 / 20%); */
+  box-shadow: -11px 14px 15px rgb(0 0 0 / 20%);
+  margin-bottom: 0.6rem;
+}
+
+.img3{
+  box-shadow: -9px 8px 20px rgb(0 0 0 / 20%);
 }
 
 .portfolio__title{
@@ -862,7 +894,17 @@ transform: translateX(.25rem);
 .testimonial__name{
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  transform: translate(35px, 23px);
 }
+
+/* .uil-plane-departure{
+  font-size: 3.5rem;
+  color: var(--first-color);
+}
+.uil-brackets-curly{
+  font-size: 3.5rem;
+  color: var(--first-color);
+} */
 
 .testimonial__client{
   font-size: var(--small-font-size);
@@ -1126,6 +1168,7 @@ transform: translateX(.25rem);
     grid-template-columns: .6fr;
     justify-content: center;
   }
+  
 }
 
 @media screen and (min-width: 768px)
@@ -1295,7 +1338,7 @@ transform: translateX(.25rem);
       padding: 0;
     }
     .footer__links{
-      margin-inline-end: -4rem;
+      margin-inline-end: -5rem;
     }
 
     .home__blob{
@@ -1336,6 +1379,7 @@ transform: translateX(.25rem);
     }
     .qualification__button .qualification__active{
       color: var(--first-color);
+      text-decoration: underline;
     }
     
     
