@@ -654,6 +654,13 @@ img {
   /* text-decoration: underline; */
 }
 
+.toggle{
+  text-align: center;
+    transform: translateY(-20px);
+    color: var(--text-color-light);
+}
+
+
 
 /*==================== Experience & Achievements ====================*/
 .services__container{
@@ -777,15 +784,19 @@ img {
 }
 
 .img1{
-  box-shadow: -11px 17px 20px rgb(0 0 0 / 20%);
-  /* content: '';
-  bottom: -15%;
-  left: 5%;
-  width: 90%;
-  height: 90%;
-  background: rgba(0, 0, 0, .3);
-  z-index: -1;
-  filter: blur(0.2px); */
+  /* box-shadow: -11px 17px 20px rgb(0 0 0 / 20%); */
+  box-shadow: -10px 12px 20px rgb(0 0 0 / 20%);
+  margin-bottom: 0.6rem;
+}
+
+.img2{
+  /* box-shadow: -11px 17px 20px rgb(0 0 0 / 20%); */
+  box-shadow: -11px 14px 15px rgb(0 0 0 / 20%);
+  margin-bottom: 0.6rem;
+}
+
+.img3{
+  box-shadow: -9px 8px 20px rgb(0 0 0 / 20%);
 }
 
 .portfolio__title{
@@ -883,7 +894,17 @@ transform: translateX(.25rem);
 .testimonial__name{
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  transform: translate(35px, 23px);
 }
+
+/* .uil-plane-departure{
+  font-size: 3.5rem;
+  color: var(--first-color);
+}
+.uil-brackets-curly{
+  font-size: 3.5rem;
+  color: var(--first-color);
+} */
 
 .testimonial__client{
   font-size: var(--small-font-size);
@@ -1317,7 +1338,7 @@ transform: translateX(.25rem);
       padding: 0;
     }
     .footer__links{
-      margin-inline-end: -4rem;
+      margin-inline-end: -5rem;
     }
 
     .home__blob{
