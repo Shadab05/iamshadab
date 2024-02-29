@@ -218,7 +218,7 @@ validate();
 resetform();
 
 function sendmail(name,email,subject,msg){
-    emailjs.send("service_pulbygf","template_9n3nnvv",{
+    emailjs.send("service_4v3fzl8","template_9n3nnvv",{
         to_name: name,
         from_name: email,
         subject: subject,
